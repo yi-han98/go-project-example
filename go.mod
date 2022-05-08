@@ -3,8 +3,10 @@ module github.com/Moonlight-Zhao/go-project-example
 go 1.16
 
 require (
+	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.3.0 // indirect
+	github.com/go-playground/assert/v2 v2.0.1
 	github.com/go-playground/validator/v10 v10.10.0 // indirect
 	github.com/goccy/go-json v0.9.6 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect

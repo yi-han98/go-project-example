@@ -1,5 +1,7 @@
 package concurrence
 
+import "time"
+
 func CalSquare() {
 	src := make(chan int)
 	dest := make(chan int, 3)
@@ -16,6 +18,7 @@ func CalSquare() {
 		}
 	}()
 	for i := range dest {
+		time.Sleep(time.Duration(1) * time.Second)
 		println(i)
 	}
 }
